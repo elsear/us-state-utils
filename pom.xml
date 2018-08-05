@@ -24,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>core.Main</mainClass>
+                            <mainClass>org.sfstudy.homework.core.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

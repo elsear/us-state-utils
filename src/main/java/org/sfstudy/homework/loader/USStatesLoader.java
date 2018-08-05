@@ -1,4 +1,4 @@
-package loader;
+package org.sfstudy.homework.loader;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,7 +1,7 @@
-package configuration;
+package org.sfstudy.homework.configuration;
 
-import exception.EmptyConfigurationException;
-import exception.NullConfigurationException;
+import org.sfstudy.homework.exception.EmptyConfigurationException;
+import org.sfstudy.homework.exception.NullConfigurationException;
 
 import java.util.Map;
 import java.util.Set;
@@ -17,7 +17,7 @@ public class USStatesConfiguration implements DualConfiguration{
     }
 
     private void reverseConfiguration() throws EmptyConfigurationException {
-        if(configuration == null) throw new EmptyConfigurationException("There is no configuration to reverse.");
+        if(configuration == null) throw new EmptyConfigurationException("There is no org.sfstudy.homework.configuration to reverse.");
 
         reversedConfiguration = configuration.entrySet()
                         .stream()

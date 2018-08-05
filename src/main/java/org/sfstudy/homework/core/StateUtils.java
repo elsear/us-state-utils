@@ -1,7 +1,7 @@
-package core;
+package org.sfstudy.homework.core;
 
-import configuration.DualConfiguration;
-import html.Generator;
+import org.sfstudy.homework.configuration.DualConfiguration;
+import org.sfstudy.homework.html.Generator;
 
 /**
  * The following Java code is responsible for creating an HTML "SELECT"

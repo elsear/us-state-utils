@@ -1,7 +1,7 @@
-package configuration;
+package org.sfstudy.homework.configuration;
 
 /**
- * An object with configuration stored in map.
+ * An object with org.sfstudy.homework.configuration stored in map.
  * Configuration contains information about data to generate XML, HTML.
  */
 public interface Configuration {

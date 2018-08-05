@@ -1,4 +1,4 @@
-package loader;
+package org.sfstudy.homework.loader;
 
 import java.util.Map;
 

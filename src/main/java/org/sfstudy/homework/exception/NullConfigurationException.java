@@ -1,4 +1,4 @@
-package exception;
+package org.sfstudy.homework.exception;
 
 public class NullConfigurationException extends Exception {
     public NullConfigurationException(String message) {

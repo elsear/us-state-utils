@@ -1,4 +1,4 @@
-package configuration;
+package org.sfstudy.homework.configuration;
 
 import java.util.Set;
 

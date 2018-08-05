@@ -1,11 +1,11 @@
-package core;
+package org.sfstudy.homework.core;
 
-import loader.ConfigurationLoader;
-import configuration.DualConfiguration;
-import configuration.USStatesConfiguration;
-import loader.USStatesLoader;
-import html.Generator;
-import html.SelectGenerator;
+import org.sfstudy.homework.loader.ConfigurationLoader;
+import org.sfstudy.homework.configuration.DualConfiguration;
+import org.sfstudy.homework.configuration.USStatesConfiguration;
+import org.sfstudy.homework.loader.USStatesLoader;
+import org.sfstudy.homework.html.Generator;
+import org.sfstudy.homework.html.SelectGenerator;
 
 public class Main {
 

@@ -1,7 +1,7 @@
-package html;
+package org.sfstudy.homework.html;
 
 
-import configuration.DualConfiguration;
+import org.sfstudy.homework.configuration.DualConfiguration;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -42,7 +42,7 @@ public class SelectGenerator implements Generator {
     }
 
     /**
-     * Method to generate specific html select block.
+     * Method to generate specific org.sfstudy.homework.html select block.
      */
     public String generateHtmlBlock() throws ParserConfigurationException, TransformerException {
         Document document = createDOM();
